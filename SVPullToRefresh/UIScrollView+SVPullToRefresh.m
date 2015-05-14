@@ -462,7 +462,7 @@ static char UIScrollViewPullToRefreshView;
     if(!_titleLabel) {
         _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 210, 20)];
         _titleLabel.text = NSLocalizedString(@"Pull to refresh...",);
-        _titleLabel.font = [UIFont boldSystemFontOfSize:10];
+        _titleLabel.font = [UIFont systemFontOfSize:10];
         _titleLabel.backgroundColor = [UIColor clearColor];
         _titleLabel.textColor = textColor;
         [self addSubview:_titleLabel];
